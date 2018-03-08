@@ -1,0 +1,202 @@
+*{padding: 0;
+margin: 0;}
+
+
+header {
+    height: 700px;
+    width: auto;
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+header .bl {background-color: rgba( 0, 0, 0, 0.5);
+    height: 700px;
+    width: auto;}
+
+.login {
+    margin: 10px;
+    float: right;
+    height: 20px;
+}
+
+#reg {
+    float: right;
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 20px 10px 10px;
+    padding: 5px 10px;
+    opacity: 0.3;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#reg:hover {
+    opacity: 1
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+
+}
+
+.nav-link {
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    opacity: 0.3;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    line-height: 200px;
+    text-align: center;
+
+}
+
+nav a:hover {
+    background-color: gold;
+    color: darkgreen
+}
+
+h1 {
+    color: white;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+h2,
+h3 {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 a {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: gold
+}
+
+.menu {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.flex-container2 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.menu2 {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    justify-content: space-around;
+    background-color: green;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+
+}
+
+p {
+    color: white;
+    margin: 10px 10px;
+
+}
+
+
+.menu3 {
+    width: 25%;
+    height: 300px;
+    margin: 10px;
+
+}
+
+#special {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+
+.city {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    justify-content: center;
+
+}
+
+.fifty {
+    width: 540px;
+    height: 360px;
+    margin: 20px;
+}
+
+#feed {
+background-image: url("../img/back-customers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#feed .bl {
+    background-color: rgba( 0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cust {
+    float: left;
+    margin: 20px 40px 40px 40px;
+}
+
+footer {background-color: darkslategrey;
+    height: 500px;
+    
+}
+
+
+
+.uno p {
+
+    margin: 30px 40px 0px 40px;
+    color: white;
+    font-family: Tlwg Mono;
+    font-weight: bold;
+    font-size: 20px;
+}
